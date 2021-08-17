@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  line-height: 1.5;
+  color: #4d3737;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.form-input {
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: yellowgreen;
+  border-radius: 8px;
+  text-align: center;
+  padding: 6px;
+}
